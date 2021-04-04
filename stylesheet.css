@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Open+Sans:wght@300&display=swap');
+body{
+  vertical-align: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+header #ExpenseInput{
+  position: sticky;
+}
+header #ExpenseApp {
+  font-size: 300%;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+}
+header #AddItem{
+  font-size: 150%;
+  color: green;
+  font-family: 'Open Sans', sans-serif;
+}
+#ExpenseInput #Name{
+  width: 50%;
+  height: 25px;
+  border: solid .5px black;
+  border-radius: 5px;
+
+}
+#ExpenseInput #FLabel{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#ExpenseInput #DateLabel {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#ExpenseInput #Date{
+  height: 25px;
+  border: solid .5px black;
+  border-radius: 5px;
+  width: 23%;
+}
+#ExpenseInput #AmountLabel{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#ExpenseInput #Amount{
+  height: 25px;
+  border: solid .5px black;
+  border-radius: 5px;
+  width: 23%;
+}
+#ExpenseInput #Date #DateLabel{
+
+}
+#ExpenseInput #Button{
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 15%;
+  font-size: 1.1em;
+}
+
+#Table,tr,th, td{
+
+  height: 50%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: left;
+   margin-right: auto;
+  margin-left: auto;
+}
+th, td{
+  padding: 5px;
+}
+td{
+  background-color: #bebebe;
+}
+

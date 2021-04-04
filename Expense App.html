@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Expense App</title>
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+  <header>
+    <h1 id="ExpenseApp">Expense App</h1>
+    <h2 id="AddItem">Add A New Item</h2>
+  </header>
+  <main id="ExpenseInput">
+    <label for="Name" id="FLabel">Name:</label>
+    <input id="Name" type="text" placeholder="Enter Your Name Here">
+    <P>
+      <label for="Date" id="DateLabel">Date:</label>
+      <input type="date" id="Date" placeholder="Enter The Date">
+      <label for="Amount" id="AmountLabel">Amount:</label>
+      <input type="text" id="Amount" value="$">
+    </P>
+    <p>
+      <button id="Button" type="submit" value="submit">Add Expense</button>
+    </p>
+
+  </main>
+  <table id="Table" style="width: 75%">
+    <tr id="tdlist">
+      <th>Name</th>
+      <th>Date</th>
+      <th>Amount</th>
+      <th></th>
+    </tr>
+    <tr>
+    </tr>
+
+  </table>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
